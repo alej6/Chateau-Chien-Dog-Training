@@ -1,0 +1,40 @@
+/* Style for smaller screens*/
+header{
+    background-image:url(/images/LogoSmall.png);
+    min-height:50px;
+    background-position:right top;
+    background-repeat: no-repeat;    
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+body{background-color: dodgerblue;
+      color:white;
+ }
+
+dt{
+    font-weight:bold;
+}
+
+main{background-color:white;
+      color:navy;
+      font-family: Arial, sans-serif;
+}
+/* Style for larger screens using media query*/
+@media screen and (min-width: 480px) {
+  body{
+    background-color: lightskyblue;
+    color:navy
+  }
+
+  header{
+    background-color: dodgerblue;
+    color:snow;
+    font-family: 'Times New Roman', Times, serif;
+    background-image:url(/images/LogoLarge.png);
+    min-height: 100px;
+        
+  }
+}
