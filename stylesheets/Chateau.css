@@ -1,6 +1,6 @@
 /* Style for smaller screens*/
 header{
-    background-image:url(images/LogoSmall.png);
+    background-image:url("/images/LogoSmall.png");
     min-height:50px;
     background-position:right top;
     background-repeat: no-repeat;    
@@ -33,7 +33,7 @@ main{background-color:white;
     background-color: dodgerblue;
     color:snow;
     font-family: 'Times New Roman', Times, serif;
-    background-image:url(images/LogoLarge.png);
+    background-image:url("/images/LogoLarge.png");
     min-height: 100px;
         
   }
