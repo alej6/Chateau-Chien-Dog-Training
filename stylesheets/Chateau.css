@@ -4,13 +4,14 @@ header{
     min-height:50px;
     background-position:right top;
     background-repeat: no-repeat;    
+    background-color:#004475
 }
 
 img{
     max-width:100%;
     height:auto;
 }
-body{background-color: dodgerblue;
+body{background-color: #3a6ea5;
       color:white;
  }
 
@@ -19,22 +20,121 @@ dt{
 }
 
 main{background-color:white;
-      color:navy;
-      font-family: Arial, sans-serif;
+      color:#004475;
+      font-family: Roboto, sans-serif;
 }
+
+nav{
+        font-size:1.5em;
+    }
+
+.gray-background ul{
+        background-color:lightgray;  
+    }
+
+.circle-img{
+        border-radius:50px;
+        width:80px;
+    }
+
+#fancy{
+    font-family:'Brush Script MT', cursive;
+    font-size:4em;
+    }
+    
+.list-backgrounds{
+        background-color:lightgoldenrodyellow;
+    }
+
+.pastel-background{
+         background-color:rgb(167,223,227);
+    }
+
+.largeritalics{
+        font-size:1.2em;
+        font-style:italic;
+    }
+
+/* Spring theme for navigation links*/
+
+ nav a:link{
+        color:rgb(126, 183, 127);
+}
+    
+nav a:visited{
+        color:rgb(126, 183, 127);
+}
+    
+nav a:hover{
+        color:rgb(247, 239, 129);
+    }
+    
+.matching-font{
+        color:rgb(126, 183, 127);
+    }
+    
 /* Style for larger screens using media query*/
 @media screen and (min-width: 480px) {
   body{
-    background-color: lightskyblue;
-    color:navy
+    background-color: #004475;
+    color:navy;
   }
 
   header{
-    background-color: dodgerblue;
+    background-color: #3a6ea5;
     color:snow;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Times New Roman',Times, serif;
     background-image:url("../images/LogoLarge.png");
-    min-height: 100px;
-        
+    min-height:100px;
   }
+    
+    nav{
+        font-size:1.5em;
+    }
+    
+/*Spring theme for navigation links*/
+    
+    nav a:link{
+        color:rgb(126, 183, 127);
+    }
+    
+    nav a:visited{
+        color:rgb(126, 183, 127);
+    }
+    
+    nav a:hover{
+        color:rgb(247, 239, 129);
+    }
+    
+    
+    .gray-background ul{
+        background-color:lightgray;  
+    }
+    
+    .circle-img{
+        border-radius:50px;
+        width:150px;
+    }
+            
+    #fancy{
+    font-family:'Brush Script MT', cursive;
+    font-size:4em;
+    }
+    
+    .list-backgrounds{
+        background-color:lightgoldenrodyellow;
+    }
+
+    .pastel-background{
+         background-color:rgb(167,223,227);
+    }
+    
+    .largeritalics{
+        font-size:1.2em;
+        font-style:italic;
+    }
+    
+    .matching-font{
+        color:rgb(126, 183, 127);
+    }
 }
