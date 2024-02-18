@@ -11,13 +11,19 @@ img{
     max-width:100%;
     height:auto;
 }
-body{background-color: #3a6ea5;
+body{
+    background-color: #3a6ea5;
       color:white;
  }
 
 dt{
     font-weight:bold;
 }
+
+h2{
+    text-align: center;
+}
+
 
 main{background-color:white;
       color:#004475;
@@ -26,34 +32,50 @@ main{background-color:white;
 
 nav{
         font-size:1.5em;
-    }
+        text-align:center;
+}
+/* Removes bullet points on navigation links*/
+nav ul{
+    list-style-type:none;
+}
 
-.gray-background ul{
-        background-color:lightgray;  
-    }
+/* Removes vertical breaks using display property */
+nav li{
+        display:inline;
+        margin:2px;
+}
+
+
 
 .circle-img{
         border-radius:50px;
         width:80px;
-    }
+}
 
 #fancy{
     font-family:'Brush Script MT', cursive;
     font-size:4em;
-    }
+}
     
 .list-backgrounds{
         background-color:lightgoldenrodyellow;
-    }
+}
 
 .pastel-background{
          background-color:rgb(167,223,227);
-    }
+}
 
 .largeritalics{
         font-size:1.2em;
         font-style:italic;
-    }
+}
+/*Rounded Corners*/
+#rcorners{
+        padding:5px;
+        border:2px solid black;
+        border-radius:50px;
+        background-color:rgb(126, 183, 127);
+}
 
 /* Spring theme for navigation links*/
 
@@ -69,6 +91,7 @@ nav a:hover{
         color:rgb(247, 239, 129);
     }
     
+
 .matching-font{
         color:rgb(126, 183, 127);
     }
@@ -90,6 +113,7 @@ nav a:hover{
     
     nav{
         font-size:1.5em;
+        text-align:center;
     }
     
 /*Spring theme for navigation links*/
@@ -106,10 +130,26 @@ nav a:hover{
         color:rgb(247, 239, 129);
     }
     
+    nav a {
+    display:block;
+    width:110px;
+    margin-bottom:10px;
+    background-color:black;
     
-    .gray-background ul{
-        background-color:lightgray;  
     }
+    
+/* Aligns footer to the middle*/
+    footer{text-align:center;
+    }
+    
+/* Font color for footer*/
+    footer{
+    color:rgb(126, 183, 127);
+}
+    .clear{
+    clear:left;
+    }
+    
     
     .circle-img{
         border-radius:50px;
@@ -123,7 +163,11 @@ nav a:hover{
     
     .list-backgrounds{
         background-color:lightgoldenrodyellow;
+        width:100%;
+        margin:0;
+        padding:20px;
     }
+    
 
     .pastel-background{
          background-color:rgb(167,223,227);
@@ -137,4 +181,27 @@ nav a:hover{
     .matching-font{
         color:rgb(126, 183, 127);
     }
+    
+    /* Rounded Corners*/
+    #rcorners{
+        padding:10px;
+        border:2px solid black;
+        border-radius:50px;
+        background-color:rgb(126, 183, 127);
+}
+/* Creates two uneven columns */
+    .column{
+  float: left;
+}
+
+    .left{
+  width: 20%;
+}
+
+    .right{
+  width: 50%;
+}
+
+    
+    
 }

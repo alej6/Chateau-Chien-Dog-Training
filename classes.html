@@ -11,18 +11,21 @@
         <h1 id="fancy"> Chateau Chien </h1>
     </header>
             <!-- Navigation links to the pages -->
-    <nav>
-        <a href= "index.html">Home</a>
-        <a href= "classes.html">Classes</a>
-        <a href= "ourteam.html">Our Team</a>
-        <a href= "contact.html">Contact</a>
+    <nav class="column left">
+        <ul>
+            <li><a href= "index.html">Home</a>
+            <li><a href= "classes.html">Classes</a>
+            <li><a href= "ourteam.html">Our Team</a>
+            <li><a href= "contact.html">Contact</a>
+            </li>
+        </ul>
     </nav>
     <main>
       <img src="images/ClassesDogs.jpg"
-            alt="Six dogs lined up with their owners">
+            alt="Six dogs lined up with their owners" class="column right ">
+        <aside class= "column left clear" id="rcorners">
       <h2>Pick the right class for you!</h2>
         <!-- Unordered List for class Info-->
-      <aside class="gray-background">
         <ul>
             <li>Treats and toys provided in all classes.</li>
             <li>Sessions last two hours.</li>
@@ -30,9 +33,9 @@
             <li>Bring your favorite leash.</li>
          </ul>
         </aside>
+        <div class="list-backgrounds column right ">
         <h2> Class Descriptions</h2>
             <!-- Dictionary list for Class Descriptions-->
-        <div class="list-backgrounds">
             <dl>
                 <dt>Puppy Pawsitivity</dt>
                 <dd>This class helps with socialization skills, potty and crate training. Learn
@@ -49,7 +52,7 @@ to 8 months old.
                 </dd>
             </dl>
         <!-- Ordered List for Class Reminders-->
-            <h2> Class Reminders</h2>
+            <h3> To make your choice:</h3>
             <ol>
                 <li> Consider your dog's age and skill level.</li>
                 <li>Review class schedules.</li>
@@ -58,7 +61,7 @@ to 8 months old.
         </div>
     </main>
         <!-- Copyright and email footer -->
-    <footer>
+    <footer class="clear">
         Copyright &copy; 2023 Chateau Chien <br>
         <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
     </footer>
