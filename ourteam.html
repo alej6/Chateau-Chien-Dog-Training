@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/Chateau.css">
-    <meta name="viewport"  content="width=device-width, initial scale=1.0">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
     <title> Chateau Chien </title>
     <meta charset="UTF-8">
 
@@ -11,31 +11,43 @@
     <header>
         <h1 id="fancy"> Chateau Chien </h1>
     </header>
+    <div class="sidebar">
             <!-- Navigation links to the pages -->
-     <nav>
-        <ul>
-            <li><a href= "index.html">Home</a>
-            <li><a href= "classes.html">Classes</a>
-            <li><a href= "ourteam.html">Our Team</a>
-            <li><a href= "contact.html">Contact</a>
-            </li>
-        </ul>
+     <nav class="navcontainer">
+        <a href= "index.html">Home</a>
+        <a href= "classes.html">Classes</a>
+        <a href= "ourteam.html">Our Team</a>
+        <a href= "contact.html">Contact</a>
     </nav>
     <main>
-        <h2>Sponsors and trainers will go here</h2>
+        <div class="flex-container-images">
         <a href="https://www.mspca.org">
             <img src="images/sponsor"
-            width="300"
+            width="100"
             alt ="Link to MSPCA-Angell website">
         </a>
+        <a href="https://www.arlboston.org/">
+            <img src="images/sponsor"
+            width="100"
+            alt ="Link to Animal Rescue League of Boston">
+        </a>
+        <a href="https://www.sweetpawsrescue.org/">
+            <img src="images/sponsor"
+            width="100"
+            alt ="Link to Sweet Paws Rescue">
+        </a>
+        </div>
         <section class="pastel-background">
             <h2> Our trainers are</h2>
+            <div class="container">
             <ol>
                 <li> <em>Experienced</em></li>  
                 <li> <em>Helpful</em></li>
                 <li><em>Available for private lessons</em></li>
             </ol>
+            </div>
         <!--Pictures of trainers -->
+            <div class="flex-container-images">
             <figure>
                 <img src="images/trainer1.jpeg" alt="Trainer Emily" class="circle-img">
                 <figcaption>Emily</figcaption>
@@ -48,8 +60,18 @@
                 <img src="images/trainer3.jpeg" alt="Trainer Jessica" class="circle-img">
                 <figcaption>Jessica</figcaption>
             </figure>
+            <figure>
+                <img src="images/trainer4.jpeg" alt="Trainer Kathy" class="circle-img">
+                <figcaption>Kathy</figcaption>
+            </figure>
+            <figure>
+                <img src="images/trainer6.jpeg" alt="Trainer Samantha" class="circle-img">
+                <figcaption>Samantha</figcaption>
+            </figure>
+            </div>
         </section>
 </main>
+            </div>
         <!-- Copyright and email footer -->
 <footer>
         Copyright &copy; 2023 Chateau Chien <br>
