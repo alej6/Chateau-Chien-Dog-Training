@@ -33,8 +33,8 @@ main{background-color:white;
 }
 
 nav{
-        font-size:1.5em;
-        text-align:center;
+    font-size:1.5em;
+    text-align:center;
 }
 /* Background color for navigation buttons */
 nav a {
@@ -45,8 +45,8 @@ nav a {
 
 
 .circle-img{
-        border-radius:50px;
-        width:80px;
+    border-radius:50px;
+    width:80px;
 }
 
 #fancy{
@@ -55,16 +55,16 @@ nav a {
 }
     
 .list-backgrounds{
-        background-color:lightgoldenrodyellow;
+    background-color:lightgoldenrodyellow;
 }
 
 .pastel-background{
-         background-color:rgb(167,223,227);
+    background-color:rgb(167,223,227);
 }
 
 .largeritalics{
-        font-size:1.2em;
-        font-style:italic;
+    font-size:1.2em;
+    font-style:italic;
 }
 /*Rounded Corners*/
 #rcorners{
@@ -301,7 +301,7 @@ div.container{
     }
     
     .booksImg{
-         grid-area:4/2/5/3;
+         grid-area:4/3/5/4;
      }
     .twoImg{
         grid-area:3/3/4/4;
