@@ -21,15 +21,50 @@
             <a href="ourblog.html">Our Blog</a>
     </nav>
      <main class=extendMain>
-        <h2>This is the contacts page</h2>
+        <h2>Let us know how to contact you with the answers you need.</h2>
+         <h2> Shoot us a message through this form so that we can get back to you during our business hours!</h2>
+         <form action="https://webdevbasics.net/scripts/demo.php">
+         <label for="name">Name:</label>
+         <input type="text" id="name" name="name" required>
+             
+        <label for= "email">Email:</label>
+        <input type="email" id="email" name="email" placeholder=bob123@gmail.com>
+             
+        <label for= "phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+             
+         <label for="contact"> Preferred Contact:</label>
+         <select id="contact" name="contact">
+             <option value="Email me">Email me</option>
+             <option value="Phone me between 1pm-4pm">Phone me between 1pm-4pm</option>
+             <option value="Phone me between 6pm-9pm">Phone me between 6pm-9pm</option>
+             </select>
+             
+             
+        <label for= "question"> Question or concern?</label>
+             <textarea id="question" name="question"></textarea>
+        
+        <label for="send"> Send now!</label>
+        <input type="submit" id="send" name="send">
+             
+         
+         </form>   
+              
+          
         <img src="images/DogOnPhone"
             alt="White and brown dog holding up a can attatched to string as a phone">
     </main>
     </div>
         <!-- Copyright and email footer -->
-    <footer>
+    <footer id="demo">
         Copyright &copy; 2023 Chateau Chien <br>
         <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+        
+        
+        <script>
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d;
+        </script>
     </footer>
 
           
